@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+<script>
+  function Charcount(input) {
+    if (typeof input === "string") {
+      let count = 1;
+      let Char = "";
+      let outputstr = "";
+      let newStr = input.toUpperCase().replace(/[^a-zA-Z]/g, "");
+      console.log(newStr);
+      for (let i = 0; i < newStr.length; i++) {
+        if (newStr[i] === newStr[i + 1]) {
+          Char = newStr[i];
+          count = count + 1;
+        } else {
+          outputstr = outputstr + count + Char;
+          count = 1;
+        }
+      }
+      return outputstr;
+    } else {
+      return "give me a string";
+    }
+  }
+  console.log(Charcount("AAAABBB$$33CCaA"));
+
+  // 32–47 / 58–64 / 91–96 / 123–126
+</script>

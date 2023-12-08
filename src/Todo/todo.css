@@ -1,0 +1,17 @@
+.Cardroot{
+    display:flex;
+    align-items: start;
+    justify-content: start;
+    gap:20px;
+    border: 1px solid black;
+    padding:10px;
+    height:80vh;
+}
+.card{
+    border: 1px solid grey;
+    border-radius: 7px;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}

@@ -1,0 +1,15 @@
+.buttonlike{
+    width:100px;
+    height: 50px;
+   
+    border:2px solid grey
+}
+.buttonlike:hover{
+    border:2px solid red
+}
+.buttonSelected{
+    border:1px solid transparent;
+    background-color: red;
+    color: white;
+
+}

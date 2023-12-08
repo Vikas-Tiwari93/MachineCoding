@@ -1,0 +1,25 @@
+.progressroot{
+    width:600px;
+    border:1px solid black;
+    border-radius: 15px;
+    height:25px;
+    position: relative;
+    overflow: hidden;
+}
+.progressbar{
+    background-color: green;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.percentage{
+    position: absolute;
+    right:49%;
+}
+.percentagefiftyplus{
+    position: absolute;
+    right:49%;
+    color:white
+}

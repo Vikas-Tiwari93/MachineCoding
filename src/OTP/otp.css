@@ -1,0 +1,79 @@
+.rootElm{
+    height:100vh;
+    display: flex;
+}
+input{
+    padding:10px;
+}
+.options{
+    font-size: 23px;
+    font-weight: 600;
+    padding:20px;
+    width:20%;
+    height: 100%;
+    border:1px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.inputsProps{
+    width:100%;
+    font-size: 18px;
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.inputsProps input {
+    width:100%;
+    height:30px;
+    border-radius: 4px;
+}
+
+.OTPspace{
+    width:80%;
+    height: 100%;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.Otpcard{
+    height:300px;
+  display: flex;
+  flex-direction: column;
+ justify-content: space-around;
+  padding: 50px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.Otpcard button{
+   padding:10px 20px;
+
+}
+.OTPbuttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px
+}
+.OTPSpace{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:20px;
+}
+.OTPinputbox{
+margin-right: 20px;
+    width:50px;
+    height:50px;
+}
